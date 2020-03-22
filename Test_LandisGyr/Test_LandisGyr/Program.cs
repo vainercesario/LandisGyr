@@ -41,7 +41,6 @@ namespace Test_LandisGyr
 
         static void Main(string[] args)
         {
-            IExecution itemSelected;
 
             while (true)
             {
@@ -59,7 +58,7 @@ namespace Test_LandisGyr
                     } while (!int.TryParse(option, out valueOption));
                 }
 
-                itemSelected = Run(valueOption);
+                Run(valueOption);
                 
             }
 

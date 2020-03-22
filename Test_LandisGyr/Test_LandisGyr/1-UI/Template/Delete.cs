@@ -26,7 +26,7 @@ namespace Test_LandisGyr._1_UI.Template
 
             Components.Title("DELETE ENDPOINT:");
 
-            Console.WriteLine("Enter the serial number of the Endpoint to be edited:");
+            Console.WriteLine("Enter the serial number of the Endpoint to be deleted:");
             var result = Console.ReadLine();
             var endPoint = _endPointDao.Find(result);
 
